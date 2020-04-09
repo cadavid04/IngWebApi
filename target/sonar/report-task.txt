@@ -1,0 +1,6 @@
+projectKey=co.udea.heroes.api:docente-api
+serverUrl=http://localhost:9000
+serverVersion=8.2.0.32929
+dashboardUrl=http://localhost:9000/dashboard?id=co.udea.heroes.api%3Adocente-api
+ceTaskId=AXEd_BPXSvNEKBtEO0kK
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXEd_BPXSvNEKBtEO0kK
