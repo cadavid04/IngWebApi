@@ -2,69 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbf78f36-3d46-41f2-8383-e4c083075b7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mavenServices.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f88914cb03bc23b1a12099f18166e61f6b0d837" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7bc40fc22f8a650033f27c4d550c3c00db8f738e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/89f7976a4ecce0140e1eb2bd9bd0e7439d7bf90b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8aad8ee0162cb50df2076f517d479128027a8423" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/968b78f62757d4507db40f8ba0b5892d42564da8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a10ab039f6e6f427b4d7bdaaa8aadb83f10c9f91" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c8b75845b56e53d20b5db0404c19e8b5f6ffe1a1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Perfil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/docenteapi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/docenteapi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ingweb.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/DTO/ProductoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/controller/AjusteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/repository/AjusteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/repository/ProductoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/AjusteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f88914cb03bc23b1a12099f18166e61f6b0d837" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7bc40fc22f8a650033f27c4d550c3c00db8f738e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/89f7976a4ecce0140e1eb2bd9bd0e7439d7bf90b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8aad8ee0162cb50df2076f517d479128027a8423" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/968b78f62757d4507db40f8ba0b5892d42564da8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a10ab039f6e6f427b4d7bdaaa8aadb83f10c9f91" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c8b75845b56e53d20b5db0404c19e8b5f6ffe1a1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docente.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docente.log.2019-08-26.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docente.log.2019-09-01.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docente.log.2019-09-02.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docente.log.2019-09-03.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docente.log.2019-09-04.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docente.log.2019-09-19.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docente.log.2019-09-21.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docente.log.2019-09-25.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docenteapi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ingewebapi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/DTO/RegistroActividadDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/DTO/RegistroActividadDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/config/CORSFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/config/CORSFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/controller/ActividadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/controller/ActividadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/controller/DocenteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/controller/DocenteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/controller/RegistrosActividadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/controller/RegistrosActividadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/exception/BusinessException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/exception/DataBaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/exception/DataBaseException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/exception/DataDuplicatedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/exception/DataDuplicatedException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/exception/DataNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/exception/DataNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/exception/GeneralRuntimeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/exception/GeneralRuntimeException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/model/Actividad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Actividad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/model/Docente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Docente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/model/Grupo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Grupo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/model/RegistroActividad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/RegistroActividad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/repository/ActividadRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/repository/ActividadRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/repository/DocenteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/repository/DocenteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/repository/GrupoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/repository/GrupoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/repository/RegistroActividadRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/repository/RegistroActividadRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/ActividadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/ActividadService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/ActividadServiceInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/ActividadServiceInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/DocenteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/DocenteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/DocenteServiceInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/DocenteServiceInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/RegistroActividadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/RegistroActividadService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/docente/api/service/RegistroActividadServiceInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/RegistroActividadServiceInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-heroku2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-heroku2.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/udea/docente/api/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/udea/ingweb/api/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/docente-api.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/controller/RegistrosActividadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/docente/api/controller/RegistrosActividadController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/DTO/RegistroActividadDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/DTO/AjusteDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/controller/ActividadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/controller/DocenteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/controller/RegistrosActividadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Ajuste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Ajuste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Empleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Perfil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Perfil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/repository/ActividadRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/repository/DocenteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/repository/GrupoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/repository/RegistroActividadRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/ActividadService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/ActividadServiceInt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/DocenteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/DocenteServiceInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/AjusteServiceInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/RegistroActividadService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/RegistroActividadServiceInt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-heroku2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-heroku2.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/DTO/RegistroActividadDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/config/CORSFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/config/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/controller/ActividadController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/controller/DocenteController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/controller/RegistrosActividadController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/exception/BusinessException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/exception/DataBaseException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/exception/DataDuplicatedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/exception/DataNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/exception/GeneralRuntimeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/model/Actividad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/model/Docente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/model/Grupo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/model/RegistroActividad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/repository/ActividadRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/repository/DocenteRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/repository/GrupoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/repository/RegistroActividadRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/service/ActividadService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/service/ActividadServiceInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/service/DocenteService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/service/DocenteServiceInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/service/RegistroActividadService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/docente/api/service/RegistroActividadServiceInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/udea/docente/api/AppTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +89,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -131,6 +133,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="co.udea.ingweb.api.repository" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -143,7 +150,8 @@
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
-      <option name="MAIN_CLASS_NAME" value="co.udea.docente.api.App" />
+      <option name="MAIN_CLASS_NAME" value="co.udea.ingweb.api.App" />
+      <module name="IngWebApi" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -267,7 +275,9 @@
       <workItem from="1585342874776" duration="2297000" />
       <workItem from="1585346508649" duration="1068000" />
       <workItem from="1585402978774" duration="121000" />
-      <workItem from="1586465088827" duration="4055000" />
+      <workItem from="1586465088827" duration="4987000" />
+      <workItem from="1586527470269" duration="4136000" />
+      <workItem from="1586532218527" duration="4210000" />
     </task>
     <servers />
   </component>
@@ -290,36 +300,56 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="324" y="23" key="#Unnamed" timestamp="1585258947349">
+    <state x="324" y="23" key="#Unnamed" timestamp="1586534523869">
       <screen x="0" y="23" width="1280" height="713" />
     </state>
-    <state x="324" y="23" key="#Unnamed/0.23.1280.713@0.23.1280.713" timestamp="1585258947349" />
+    <state x="324" y="23" key="#Unnamed/0.23.1280.713@0.23.1280.713" timestamp="1586534523869" />
+    <state x="324" y="23" key="#Unnamed/0.23.1280.716@0.23.1280.716" timestamp="1586534046390" />
     <state x="104" y="33" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585272751255">
       <screen x="0" y="23" width="1280" height="713" />
     </state>
     <state x="104" y="33" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.713@0.23.1280.713" timestamp="1585272751255" />
-    <state width="1218" height="192" key="GridCell.Tab.0.bottom" timestamp="1585259471121">
+    <state x="454" y="71" key="#com.intellij.ide.util.MemberChooser" timestamp="1586534340557">
+      <screen x="0" y="23" width="1280" height="716" />
+    </state>
+    <state x="454" y="71" key="#com.intellij.ide.util.MemberChooser/0.23.1280.713@0.23.1280.713" timestamp="1586530783599" />
+    <state x="454" y="71" key="#com.intellij.ide.util.MemberChooser/0.23.1280.715@0.23.1280.715" timestamp="1586531278294" />
+    <state x="454" y="71" key="#com.intellij.ide.util.MemberChooser/0.23.1280.716@0.23.1280.716" timestamp="1586534340557" />
+    <state x="400" y="178" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586534042091">
+      <screen x="0" y="23" width="1280" height="716" />
+    </state>
+    <state x="400" y="178" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1280.716@0.23.1280.716" timestamp="1586534042091" />
+    <state x="195" y="37" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586529973403">
       <screen x="0" y="23" width="1280" height="713" />
     </state>
-    <state width="1218" height="192" key="GridCell.Tab.0.bottom/0.23.1280.713@0.23.1280.713" timestamp="1585259471121" />
+    <state x="195" y="37" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1280.713@0.23.1280.713" timestamp="1586529973403" />
+    <state x="378" y="133" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586529688378">
+      <screen x="0" y="23" width="1280" height="713" />
+    </state>
+    <state x="378" y="133" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.713@0.23.1280.713" timestamp="1586529688378" />
+    <state x="378" y="133" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.715@0.23.1280.715" timestamp="1586471083259" />
+    <state width="1235" height="197" key="GridCell.Tab.0.bottom" timestamp="1586535367688">
+      <screen x="0" y="23" width="1280" height="713" />
+    </state>
+    <state width="1235" height="197" key="GridCell.Tab.0.bottom/0.23.1280.713@0.23.1280.713" timestamp="1586535367688" />
     <state width="1218" height="70" key="GridCell.Tab.0.bottom/0.23.1280.715@0.23.1280.715" timestamp="1585236873445" />
     <state width="1218" height="192" key="GridCell.Tab.0.bottom/0.23.1280.716@0.23.1280.716" timestamp="1585241676213" />
-    <state width="1218" height="192" key="GridCell.Tab.0.center" timestamp="1585259471120">
+    <state width="1235" height="197" key="GridCell.Tab.0.center" timestamp="1586535367686">
       <screen x="0" y="23" width="1280" height="713" />
     </state>
-    <state width="1218" height="192" key="GridCell.Tab.0.center/0.23.1280.713@0.23.1280.713" timestamp="1585259471120" />
+    <state width="1235" height="197" key="GridCell.Tab.0.center/0.23.1280.713@0.23.1280.713" timestamp="1586535367686" />
     <state width="1218" height="70" key="GridCell.Tab.0.center/0.23.1280.715@0.23.1280.715" timestamp="1585236873443" />
     <state width="1218" height="192" key="GridCell.Tab.0.center/0.23.1280.716@0.23.1280.716" timestamp="1585241676212" />
-    <state width="1218" height="192" key="GridCell.Tab.0.left" timestamp="1585259471119">
+    <state width="1235" height="197" key="GridCell.Tab.0.left" timestamp="1586535367684">
       <screen x="0" y="23" width="1280" height="713" />
     </state>
-    <state width="1218" height="192" key="GridCell.Tab.0.left/0.23.1280.713@0.23.1280.713" timestamp="1585259471119" />
+    <state width="1235" height="197" key="GridCell.Tab.0.left/0.23.1280.713@0.23.1280.713" timestamp="1586535367684" />
     <state width="1218" height="70" key="GridCell.Tab.0.left/0.23.1280.715@0.23.1280.715" timestamp="1585236873443" />
     <state width="1218" height="192" key="GridCell.Tab.0.left/0.23.1280.716@0.23.1280.716" timestamp="1585241676212" />
-    <state width="1218" height="192" key="GridCell.Tab.0.right" timestamp="1585259471120">
+    <state width="1235" height="197" key="GridCell.Tab.0.right" timestamp="1586535367686">
       <screen x="0" y="23" width="1280" height="713" />
     </state>
-    <state width="1218" height="192" key="GridCell.Tab.0.right/0.23.1280.713@0.23.1280.713" timestamp="1585259471120" />
+    <state width="1235" height="197" key="GridCell.Tab.0.right/0.23.1280.713@0.23.1280.713" timestamp="1586535367686" />
     <state width="1218" height="70" key="GridCell.Tab.0.right/0.23.1280.715@0.23.1280.715" timestamp="1585236873444" />
     <state width="1218" height="192" key="GridCell.Tab.0.right/0.23.1280.716@0.23.1280.716" timestamp="1585241676213" />
     <state x="149" y="23" width="982" height="713" key="SettingsEditor" timestamp="1585346466503">
@@ -335,16 +365,5 @@
       <screen x="0" y="23" width="1280" height="713" />
     </state>
     <state x="103" y="137" key="org.sonarlint.intellij.config.global.wizard.SQServerWizard$SonarQubeWizard/0.23.1280.713@0.23.1280.713" timestamp="1585273656589" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/ActividadService.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

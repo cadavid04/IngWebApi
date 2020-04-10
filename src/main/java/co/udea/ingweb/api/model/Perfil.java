@@ -2,6 +2,8 @@ package co.udea.ingweb.api.model;
 
 import javax.persistence.*;
 
+@Entity
+@Table(name = "Perfiles")
 public class Perfil {
 
     @Id

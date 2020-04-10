@@ -15,12 +15,12 @@ spring:
 
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:postgresql://ec2-184-73-169-163.compute-1.amazonaws.com:5432/da549s6alatudh
+    url: jdbc:postgresql://ec2-54-210-128-153.compute-1.amazonaws.com:5432/da1sjgfqnnctkq
     driver-class-name: org.postgresql.Driver
-    username: cdqnsrjjebaxxy
-    password: 609438b5f5a79188129689a463fe21d9f61d102185507d7a31a8420042dc8daf
+    username: gtfcnotxevmhhl
+    password: 4b7fa5585234142e8b57383ed91d6ad4f735d912ba8440e1ab20233dc66224bf
 
 logging:
   level:
     root: INFO
-  file: docente.log
+  file: ingweb.log

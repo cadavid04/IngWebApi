@@ -1,10 +1,9 @@
 package co.udea.ingweb.api.model;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
+@Entity
+@Table(name = "Categorias")
 public class Categoria {
 
     @Id

@@ -1,7 +1,7 @@
 # Server properties
 server:
   servlet:
-    context-path: /docente-api
+    context-path: /ingweb-api
   port: 8080
 # Spring properties
 spring:
@@ -9,4 +9,4 @@ spring:
   profiles:
     active: heroku2
   application:
-    name: docente-api
+    name: ingweb-api
