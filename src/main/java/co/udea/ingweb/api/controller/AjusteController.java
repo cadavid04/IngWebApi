@@ -2,14 +2,14 @@ package co.udea.ingweb.api.controller;
 
 import co.udea.ingweb.api.DTO.AjusteDTO;
 import co.udea.ingweb.api.service.AjusteServiceInt;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 
 @RestController
-@RequestMapping("/ajuste")
+@RequestMapping("/ajustes")
 public class AjusteController {
 
     private AjusteServiceInt ajusteService;
@@ -22,6 +22,11 @@ public class AjusteController {
     @PostMapping()
     public void agregarAjuste(@RequestBody AjusteDTO ajusteDTO){
         ajusteService.agregarAjuste(ajusteDTO);
+    }
+
+    @GetMapping()
+    public ResponseEntity<List<AjusteDTO>> consultarAjustes(){
+        return ResponseEntity.ok(ajusteService.consultarAjustes());
     }
 }
 
