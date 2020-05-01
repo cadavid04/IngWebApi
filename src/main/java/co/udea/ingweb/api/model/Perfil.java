@@ -14,7 +14,4 @@ public class Perfil {
     @Column(name = "nombre")
     private String nombre;
 
-    @JoinColumn(name = "id_empleado", nullable = false)
-    @ManyToOne(optional = false,  fetch = FetchType.EAGER)
-    private Categoria categoria;
 }

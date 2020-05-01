@@ -21,4 +21,48 @@ public class Usuario {
     @JoinColumn(name = "id_empleado", nullable = false)
     @ManyToOne(optional = false,  fetch = FetchType.EAGER)
     private Empleado empleado;
+
+    @JoinColumn(name = "id_perfil", nullable = false)
+    @ManyToOne(optional = false,  fetch = FetchType.EAGER)
+    private Perfil perfil;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getUsuario() {
+        return usuario;
+    }
+
+    public void setUsuario(String usuario) {
+        this.usuario = usuario;
+    }
+
+    public String getPass() {
+        return pass;
+    }
+
+    public void setPass(String pass) {
+        this.pass = pass;
+    }
+
+    public Empleado getEmpleado() {
+        return empleado;
+    }
+
+    public void setEmpleado(Empleado empleado) {
+        this.empleado = empleado;
+    }
+
+    public Perfil getPerfil() {
+        return perfil;
+    }
+
+    public void setPerfil(Perfil perfil) {
+        this.perfil = perfil;
+    }
 }

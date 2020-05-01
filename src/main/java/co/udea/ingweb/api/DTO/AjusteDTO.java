@@ -7,7 +7,7 @@ public class AjusteDTO {
     private String tipo;
     private int cantidad;
     private Date fecha;
-    private String productoDTO;
+    private String producto;
 
     public int getId() {
         return id;
@@ -49,24 +49,24 @@ public class AjusteDTO {
         this.fecha = fecha;
     }
 
-    public String getProductoDTO() {
-        return productoDTO;
+    public String getProducto() {
+        return producto;
     }
 
-    public void setProductoDTO(String productoDTO) {
-        this.productoDTO = productoDTO;
+    public void setProducto(String producto) {
+        this.producto = producto;
     }
 
     public AjusteDTO() {
     }
 
-    public AjusteDTO(int id, String motivo, String tipo, int cantidad, Date fecha, String productoDTO) {
+    public AjusteDTO(int id, String motivo, String tipo, int cantidad, Date fecha, String producto) {
         this.id = id;
         this.motivo = motivo;
         this.tipo = tipo;
         this.cantidad = cantidad;
         this.fecha = fecha;
-        this.productoDTO = productoDTO;
+        this.producto = producto;
     }
 }
 

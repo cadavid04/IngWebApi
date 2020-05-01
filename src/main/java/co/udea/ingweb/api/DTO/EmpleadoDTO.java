@@ -1,33 +1,20 @@
-package co.udea.ingweb.api.model;
+package co.udea.ingweb.api.DTO;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
+public class EmpleadoDTO {
 
-@Entity
-@Table(name = "Empleados")
-public class Empleado {
-
-    @Id
-    @Column(name = "id")
-    @GeneratedValue(strategy= GenerationType.IDENTITY)
     private int id;
-
-    @Column(name = "nombre")
     private String nombre;
-
-    @Column(name = "documento")
     private String documento;
-
-    @Column(name = "telefono")
     private String telefono;
-
-    @Column(name = "correo")
     private String correo;
-
-    @Column(name = "direccion")
     private String direccion;
 
-    public Empleado() {
+    public EmpleadoDTO() {
     }
 
     public int getId() {
