@@ -8,6 +8,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Venta.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/VentaDetalle.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/ventas_detalle.java">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>

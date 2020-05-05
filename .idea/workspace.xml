@@ -31,33 +31,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbf78f36-3d46-41f2-8383-e4c083075b7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/DTO/EmpleadoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/DTO/UsuarioDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/controller/EmpleadoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/controller/UsuarioController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/repository/EmpleadoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/repository/PerfilRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/repository/UsuarioRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/EmpleadoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/EmpleadoServiceInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/UsuarioService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/UsuarioServiceInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Venta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/VentaDetalle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ingweb.log" beforeDir="false" afterPath="$PROJECT_DIR$/ingweb.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/DTO/AjusteDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/DTO/AjusteDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/controller/AjusteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/controller/AjusteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Ajuste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Ajuste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Empleado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Perfil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Perfil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/AjusteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/AjusteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/AjusteServiceInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/AjusteServiceInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/ingweb/api/DTO/AjusteDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/ingweb/api/DTO/AjusteDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/ingweb/api/controller/AjusteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/ingweb/api/controller/AjusteController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/ingweb/api/model/Perfil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/ingweb/api/model/Perfil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/ingweb/api/model/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/ingweb/api/model/Usuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/ingweb/api/service/AjusteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/ingweb/api/service/AjusteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/IngWebApi.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/IngWebApi.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +91,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -139,6 +120,16 @@
       <set>
         <option value="SpringBootApplicationConfigurationType" />
       </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.SpringIngWeb">
@@ -209,7 +200,7 @@
       </method>
     </configuration>
     <configuration name="SpringIngWeb" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="IngWebApi" />
+      <module name="docente-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="co.udea.ingweb.api.App" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
@@ -223,6 +214,22 @@
       <item itemvalue="Spring Boot.SpringIngWeb" />
       <item itemvalue="Spring Boot.App" />
     </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.10784983" />
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@6358afbb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -288,12 +295,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
