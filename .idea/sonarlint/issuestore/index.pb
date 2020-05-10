@@ -1,6 +1,6 @@
 
 7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 >
 ingewebapi.iml,7/9/799f29840d0f2fb7170077cd11da1519ccfd0291
 g
@@ -8,9 +8,9 @@ g
 b
 2src/main/java/co/udea/ingweb/api/model/Perfil.java,3/4/346864c2b38279ab2ddff915dec118637fc8428b
 d
-4src/main/java/co/udea/ingweb/api/model/Producto.java,f/7/f7646cf38c1c35f36bf64baa07c61a66223ba0cc
+4src/main/java/co/udea/ingweb/api/model/Producto.java,f\7\f7646cf38c1c35f36bf64baa07c61a66223ba0cc
 d
-4src/main/java/co/udea/ingweb/api/model/Empleado.java,5/4/54d134719e7d85bcc13241c65f21502ef04f4589
+4src/main/java/co/udea/ingweb/api/model/Empleado.java,5\4\54d134719e7d85bcc13241c65f21502ef04f4589
 e
 5src/main/java/co/udea/ingweb/api/model/Categoria.java,e/f/ef731027b8562d4c7860d3f65c3a2fcb8efd6501
 c
@@ -18,9 +18,9 @@ c
 b
 2src/main/java/co/udea/ingweb/api/model/Ajuste.java,a/d/ad7fab0fe348318bb9e19e17c0a57c4563be5488
 q
-Asrc/main/java/co/udea/ingweb/api/controller/AjusteController.java,a/e/aec938ac05dbf75e39e363cd1b24b5aae8d41979
+Asrc/main/java/co/udea/ingweb/api/controller/AjusteController.java,a\e\aec938ac05dbf75e39e363cd1b24b5aae8d41979
 n
->src/main/java/co/udea/ingweb/api/service/AjusteServiceInt.java,a/c/ac2f0a42eaf00af9007bc5f8482609edead2b303
+>src/main/java/co/udea/ingweb/api/service/AjusteServiceInt.java,a\c\ac2f0a42eaf00af9007bc5f8482609edead2b303
 e
 5src/main/java/co/udea/ingweb/api/DTO/ProductoDTO.java,b/5/b5d3fffaee5fab91d7e3ef0069b35e52d4d7a5b8
 q
@@ -28,4 +28,12 @@ Asrc/main/java/co/udea/ingweb/api/repository/AjusteRepository.java,b/3/b30d2ab8
 c
 3src/main/java/co/udea/ingweb/api/DTO/AjusteDTO.java,7/3/73ca287f2e2d98d50374ba3fdb339461ea54f688
 k
-;src/main/java/co/udea/ingweb/api/service/AjusteService.java,f/2/f27f38d66c1ad25ffa4d9c1c5578a0df7ce03398
+;src/main/java/co/udea/ingweb/api/service/AjusteService.java,f\2\f27f38d66c1ad25ffa4d9c1c5578a0df7ce03398
+s
+Csrc/main/java/co/udea/ingweb/api/controller/EmpleadoController.java,2\1\211085b2777dd9cc4ef130e14b393fa805de3498
+j
+:src/main/java/co/udea/ingweb/api/config/SwaggerConfig.java,f\4\f40dc5aea0e186a42dd291f23e93b5fbe1b3f1b8
+a
+1src/main/java/co/udea/ingweb/api/model/Venta.java,7\8\78f94b3ff0f39dc58203b97e5f9100a70ac006c3
+h
+8src/main/java/co/udea/ingweb/api/model/VentaDetalle.java,e\1\e1e9ef785e60e3715e64810dd867d06f298e3838

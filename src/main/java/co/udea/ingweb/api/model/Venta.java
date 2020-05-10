@@ -12,7 +12,7 @@ public class Venta {
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy= GenerationType.IDENTITY)
-    private int id;
+    private Integer id;
 
     @Column(name = "fecha")
     private Date fecha;
@@ -22,7 +22,7 @@ public class Venta {
     private Empleado empleado;
 
     @Column(name = "id_cliente")
-    private int idCliente;
+    private String idCliente;
 
     @Column(name = "nombre_cliente")
     private String nombreCliente;
@@ -30,11 +30,11 @@ public class Venta {
     @Column(name = "valor")
     private double valor;
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -54,11 +54,11 @@ public class Venta {
         this.empleado = empleado;
     }
 
-    public int getIdCliente() {
+    public String getIdCliente() {
         return idCliente;
     }
 
-    public void setIdCliente(int idCliente) {
+    public void setIdCliente(String idCliente) {
         this.idCliente = idCliente;
     }
 

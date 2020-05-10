@@ -26,6 +26,9 @@ public class Producto {
     @Column(name = "fecha_de_creacion")
     private Date fechaCreacion;
 
+    @Column(name = "cantidad")
+    private int cantidad;
+
     @JoinColumn(name = "id_categoria", nullable = false)
     @ManyToOne(optional = false,  fetch = FetchType.EAGER)
     private Categoria categoria;
@@ -85,5 +88,13 @@ public class Producto {
 
     public void setCategoria(Categoria categoria) {
         this.categoria = categoria;
+    }
+
+    public int getCantidad() {
+        return cantidad;
+    }
+
+    public void setCantidad(int cantidad) {
+        this.cantidad = cantidad;
     }
 }

@@ -1,6 +1,7 @@
 package co.udea.ingweb.api.model;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 import java.util.Date;
 
@@ -8,14 +9,17 @@ import java.util.Date;
 @Entity
 @Table(name = "ventas_detalle")
 
-public class VentaDetalle implements Serializable {
+public class VentaDetalle  {
 
     @Id
+    @Column(name = "id")
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
+    private int id;
+
     @JoinColumn(name = "id_venta")
     @ManyToOne(optional = false,  fetch = FetchType.EAGER)
     private Venta venta;
 
-    @Id
     @JoinColumn(name = "id_producto")
     @ManyToOne(optional = false,  fetch = FetchType.EAGER)
     private Producto producto;
@@ -25,6 +29,14 @@ public class VentaDetalle implements Serializable {
 
     @Column(name = "valor_unitario")
     private double valorUnitario;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public Venta getVenta() {
         return venta;
