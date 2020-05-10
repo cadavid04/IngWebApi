@@ -31,14 +31,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbf78f36-3d46-41f2-8383-e4c083075b7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Venta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/VentaDetalle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ingweb.log.2020-05-04.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/DTO/VentaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/DTO/VentaDetalleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/controller/ProductoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/controller/VentaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/controller/VentaDetalleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/repository/VentaDetalleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/repository/VentaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/ProductoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/ProductoServiceInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/VentaDetalleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/VentaDetalleServiceInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/VentaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/VentaServiceInt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/54d134719e7d85bcc13241c65f21502ef04f4589" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/54d134719e7d85bcc13241c65f21502ef04f4589" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/aec938ac05dbf75e39e363cd1b24b5aae8d41979" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/aec938ac05dbf75e39e363cd1b24b5aae8d41979" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f27f38d66c1ad25ffa4d9c1c5578a0df7ce03398" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f27f38d66c1ad25ffa4d9c1c5578a0df7ce03398" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ingweb.log" beforeDir="false" afterPath="$PROJECT_DIR$/ingweb.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/IngWebApi.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/IngWebApi.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/controller/EmpleadoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/controller/EmpleadoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Venta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Venta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/VentaDetalle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/VentaDetalle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/ingweb/api/model/Categoria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/ingweb/api/model/Categoria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/ingweb/api/model/Producto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/ingweb/api/model/Producto.class" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +126,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -223,7 +245,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@6358afbb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3ce78b75" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3ce78b75" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@447d6f47" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -284,11 +311,13 @@
       <workItem from="1586532218527" duration="4210000" />
       <workItem from="1588350765138" duration="1573000" />
       <workItem from="1588352486497" duration="13573000" />
+      <workItem from="1589062947625" duration="180000" />
+      <workItem from="1589060139241" duration="22219000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -444,6 +473,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/EmpleadoService.java</url>
           <line>24</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/VentaDetalleService.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/VentaDetalleService.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/VentaService.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/VentaService.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/EmpleadoService.java</url>

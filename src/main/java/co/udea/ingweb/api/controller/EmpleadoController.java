@@ -10,24 +10,24 @@ import java.util.List;
 @RestController
 @RequestMapping("/empleados")
 public class EmpleadoController {
-    EmpleadoServiceInt empleadoServiceInt;
+    EmpleadoServiceInt empleadoService;
 
     public EmpleadoController(EmpleadoServiceInt empleadoServiceInt) {
-        this.empleadoServiceInt = empleadoServiceInt;
+        this.empleadoService = empleadoService;
     }
 
     @PutMapping()
-    public void actualizarEmpelado(EmpleadoDTO empleadoDTO){
-        empleadoServiceInt.actualizarEmpelado(empleadoDTO);
+    public void actualizarEmpelado(@RequestBody EmpleadoDTO empleadoDTO){
+        empleadoService.actualizarEmpelado(empleadoDTO);
     }
 
     @GetMapping()
     public ResponseEntity<List<EmpleadoDTO>> consultarEmpelados(){
-        return ResponseEntity.ok(empleadoServiceInt.consultarEmpelados());
+        return ResponseEntity.ok(empleadoService.consultarEmpelados());
     }
 
     @GetMapping("/{id}")
     public ResponseEntity<EmpleadoDTO> consultarEmpeladoPorId(@RequestParam int id){
-        return ResponseEntity.ok(empleadoServiceInt.consultarEmpeladoPorId(id));
+        return ResponseEntity.ok(empleadoService.consultarEmpeladoPorId(id));
     }
 }
