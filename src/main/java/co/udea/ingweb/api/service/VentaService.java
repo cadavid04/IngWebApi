@@ -30,6 +30,7 @@ public class VentaService implements VentaServiceInt {
     @Override
     public int guardarVenta(VentaDTO ventaDTO) {
         ventaDTO.setId(null);
+        ventaDTO.setValor(0.0);
         ventaRepository.save(convertirDTOAVenta(ventaDTO));
         return ventaRepository.findTopByOrderByIdDesc().getId();
 
