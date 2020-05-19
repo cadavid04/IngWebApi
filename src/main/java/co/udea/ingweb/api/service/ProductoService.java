@@ -22,21 +22,30 @@ public class ProductoService implements ProductoServiceInt{
         return convertirProductosADTO(productoRepository.findAll());
     }
 
+    @Override
+    public ProductoDTO consultarProductoPorNombre(String nombre) {
+        return convertirProductoADTO(productoRepository.findByNombreEquals(nombre));
+    }
+
     private List<ProductoDTO> convertirProductosADTO(List<Producto> productos){
         List<ProductoDTO> productosDTO = new ArrayList<>();
-        for(Producto producto:productos){
-            ProductoDTO productoDTO = new ProductoDTO();
-            productoDTO.setCantidad(producto.getCantidad());
-            productoDTO.setFechaCreacion(producto.getFechaCreacion());
-            productoDTO.setId(producto.getId());
-            productoDTO.setIdCategoria(producto.getCategoria().getId());
-            productoDTO.setMarca(producto.getMarca());
-            productoDTO.setModelo(producto.getModelo());
-            productoDTO.setNombre(producto.getNombre());
-            productoDTO.setPrecioCompra(producto.getPrecioCompra());
-            productosDTO.add(productoDTO);
+        for(Producto producto : productos){
+            productosDTO.add(convertirProductoADTO(producto));
         }
         return productosDTO;
+    }
+
+    private ProductoDTO convertirProductoADTO(Producto producto){
+        ProductoDTO productoDTO = new ProductoDTO();
+        productoDTO.setCantidad(producto.getCantidad());
+        productoDTO.setFechaCreacion(producto.getFechaCreacion());
+        productoDTO.setId(producto.getId());
+        productoDTO.setIdCategoria(producto.getCategoria().getId());
+        productoDTO.setMarca(producto.getMarca());
+        productoDTO.setModelo(producto.getModelo());
+        productoDTO.setNombre(producto.getNombre());
+        productoDTO.setPrecioCompra(producto.getPrecioCompra());
+        return productoDTO;
     }
 
 }

@@ -31,36 +31,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbf78f36-3d46-41f2-8383-e4c083075b7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ingweb.log.2020-05-04.0.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/DTO/VentaDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/DTO/VentaDetalleDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/controller/ProductoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/controller/VentaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/controller/VentaDetalleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/repository/VentaDetalleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/repository/VentaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/ProductoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/ProductoServiceInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/VentaDetalleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/VentaDetalleServiceInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/VentaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/VentaServiceInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/54d134719e7d85bcc13241c65f21502ef04f4589" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/54d134719e7d85bcc13241c65f21502ef04f4589" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/aec938ac05dbf75e39e363cd1b24b5aae8d41979" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/aec938ac05dbf75e39e363cd1b24b5aae8d41979" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f27f38d66c1ad25ffa4d9c1c5578a0df7ce03398" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f27f38d66c1ad25ffa4d9c1c5578a0df7ce03398" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ingweb.log.2020-05-01.0.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ingweb.log" beforeDir="false" afterPath="$PROJECT_DIR$/ingweb.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/controller/EmpleadoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/controller/EmpleadoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Categoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Venta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/Venta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/VentaDetalle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/model/VentaDetalle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/ingweb/api/model/Categoria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/ingweb/api/model/Categoria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/udea/ingweb/api/model/Producto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/udea/ingweb/api/model/Producto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/controller/ProductoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/ProductoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/ProductoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/ProductoServiceInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/udea/ingweb/api/service/ProductoServiceInt.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +97,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Clases 2019-1/Proyecto Integrador/Proyecto/DocenteApiCarlos" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -143,18 +119,8 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringIngWeb">
+  <component name="RunManager" selected="Spring Boot.App">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -215,8 +181,10 @@
       <method v="2" />
     </configuration>
     <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="docente-api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="co.udea.docente.api.App" />
+      <module name="IngWebApi" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="co.udea.ingweb.api.App" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -236,27 +204,6 @@
       <item itemvalue="Spring Boot.SpringIngWeb" />
       <item itemvalue="Spring Boot.App" />
     </list>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <option name="contentProportion" value="0.10784983" />
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3ce78b75" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3ce78b75" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@447d6f47" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -313,24 +260,24 @@
       <workItem from="1588352486497" duration="13573000" />
       <workItem from="1589062947625" duration="180000" />
       <workItem from="1589060139241" duration="22219000" />
+      <workItem from="1589853601191" duration="1202000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -349,15 +296,15 @@
     </state>
     <state x="324" y="23" key="#Unnamed/0.23.1280.713@0.23.1280.713" timestamp="1586534523869" />
     <state x="324" y="23" key="#Unnamed/0.23.1280.716@0.23.1280.716" timestamp="1586534046390" />
-    <state x="107" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588351692861">
+    <state x="141" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589854812051">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="107" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728@0.0.1360.728" timestamp="1588351692861" />
+    <state x="141" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728@0.0.1360.728" timestamp="1589854812051" />
     <state x="104" y="33" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.713@0.23.1280.713" timestamp="1585272751255" />
-    <state x="482" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1588367689055">
+    <state x="482" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1589854094806">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="482" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1588367689055" />
+    <state x="482" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1589854094806" />
     <state x="454" y="71" key="#com.intellij.ide.util.MemberChooser/0.23.1280.713@0.23.1280.713" timestamp="1586530783599" />
     <state x="454" y="71" key="#com.intellij.ide.util.MemberChooser/0.23.1280.715@0.23.1280.715" timestamp="1586531278294" />
     <state x="454" y="71" key="#com.intellij.ide.util.MemberChooser/0.23.1280.716@0.23.1280.716" timestamp="1586534340557" />
@@ -365,10 +312,10 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="410" y="140" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1360.728@0.0.1360.728" timestamp="1588358176804" />
-    <state x="425" y="158" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588351689927">
+    <state x="425" y="158" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1589854802704">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="425" y="158" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1360.728@0.0.1360.728" timestamp="1588351689927" />
+    <state x="425" y="158" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1360.728@0.0.1360.728" timestamp="1589854802704" />
     <state x="400" y="178" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1280.716@0.23.1280.716" timestamp="1586534042091" />
     <state x="195" y="37" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586529973403">
       <screen x="0" y="23" width="1280" height="713" />
@@ -383,6 +330,10 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state width="449" height="438" key="DebuggerActiveHint/0.0.1360.728@0.0.1360.728" timestamp="1588365205786" />
+    <state x="460" y="119" key="FileChooserDialogImpl" timestamp="1589853980040">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="460" y="119" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1589853980040" />
     <state width="1232" height="185" key="GridCell.Tab.0.bottom" timestamp="1588368170650">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
