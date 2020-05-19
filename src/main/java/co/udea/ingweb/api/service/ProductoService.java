@@ -23,8 +23,9 @@ public class ProductoService implements ProductoServiceInt{
     }
 
     @Override
-    public ProductoDTO consultarProductoPorNombre(String nombre) {
-        return convertirProductoADTO(productoRepository.findByNombreEquals(nombre));
+    public int consultarProductoPorNombre(String nombre) {
+        return convertirProductoADTO(productoRepository.findByNombreEquals(nombre)).
+                getPrecioCompra();
     }
 
     private List<ProductoDTO> convertirProductosADTO(List<Producto> productos){

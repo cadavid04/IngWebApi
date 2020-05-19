@@ -31,6 +31,16 @@ public class VentaDetalleService implements VentaDetalleServiceInt{
         return convertirDetalleVentaADTO(ventaDetalleRepository.findAllByVenta_Id(ventaDetalleDTO.getIdVenta()));
     }
 
+    @Override
+    public double sumarTotalVenta(int idVenta) {
+        List<VentaDetalle> ventaDetalles = ventaDetalleRepository.findAllByVenta_Id(idVenta);
+        double suma = 0;
+        for(VentaDetalle ventaDetalle : ventaDetalles){
+            suma = suma + (ventaDetalle.getValorUnitario() * ventaDetalle.getCantidad());
+        }
+        return suma;
+    }
+
     private List<VentaDetalleDTO> convertirDetalleVentaADTO(List<VentaDetalle> ventaDetalles){
         List<VentaDetalleDTO> ventaDetalleDTOS = new ArrayList<>();
         for(VentaDetalle ventaDetalle:ventaDetalles){

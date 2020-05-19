@@ -8,5 +8,5 @@ public interface ProductoServiceInt {
 
     List<ProductoDTO> consultarProductos();
 
-    ProductoDTO consultarProductoPorNombre(String nombre);
+    int consultarProductoPorNombre(String nombre);
 }

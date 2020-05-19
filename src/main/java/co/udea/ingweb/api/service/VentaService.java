@@ -44,7 +44,7 @@ public class VentaService implements VentaServiceInt {
         ventaRepository.save(convertirDTOAVenta(ventaDTO));
     }
 
-    private Venta convertirDTOAVenta(VentaDTO ventaDTO){
+        private Venta convertirDTOAVenta(VentaDTO ventaDTO){
         Venta venta = new Venta();
         Empleado empleado;
         empleado = empleadoRepository.findByNombreEquals(ventaDTO.getEmpleado());

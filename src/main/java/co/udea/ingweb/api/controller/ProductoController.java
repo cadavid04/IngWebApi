@@ -25,8 +25,8 @@ public class ProductoController {
     }
 
     @GetMapping("/{nombre}")
-    public ResponseEntity<ProductoDTO> consultarProductoPorNombre(@PathVariable("nombre")       String nombre){
-        return ResponseEntity.ok(productoService.consultarProductoPorNombre(nombre));
+    public int consultarProductoPorNombre(@PathVariable("nombre") String nombre){
+            return productoService.consultarProductoPorNombre(nombre);
     }
 
 }
