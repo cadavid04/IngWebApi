@@ -13,13 +13,15 @@ public class EmpleadoController {
     EmpleadoServiceInt empleadoService;
 
     public EmpleadoController(EmpleadoServiceInt empleadoServiceInt) {
-        this.empleadoService = empleadoService;
+        this.empleadoService = empleadoServiceInt;
     }
 
     @PutMapping()
     public void actualizarEmpelado(@RequestBody EmpleadoDTO empleadoDTO){
         empleadoService.actualizarEmpelado(empleadoDTO);
     }
+
+
 
     @GetMapping()
     public ResponseEntity<List<EmpleadoDTO>> consultarEmpelados(){
