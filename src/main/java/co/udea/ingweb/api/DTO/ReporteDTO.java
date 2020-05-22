@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class ReporteDTO {
     Date fecha;
-    Integer venta;
+    int venta;
     Double valorTotal;
     String empleado;
     String cliente;
@@ -17,11 +17,11 @@ public class ReporteDTO {
         this.fecha = fecha;
     }
 
-    public Integer getVenta() {
+    public int getVenta() {
         return venta;
     }
 
-    public void setVenta(Integer venta) {
+    public void setVenta(int venta) {
         this.venta = venta;
     }
 

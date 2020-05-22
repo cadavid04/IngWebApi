@@ -174,3 +174,553 @@
 2020-05-21 21:04:21.125  INFO 11132 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 30 ms
 2020-05-21 21:14:59.415  WARN 11132 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'fechaInicial' for method parameter of type Date]
 2020-05-21 21:15:44.280  WARN 11132 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'fechaInicial' for method parameter of type Date]
+2020-05-21 21:28:50.961  INFO 11132 --- [main] co.udea.ingweb.api.App                   : Starting App on DESKTOP-GD7UDV3 with PID 11132 (started by keshi in D:\Clases 2019-2\Ingeniería Web\Proyecto\IngWebApi)
+2020-05-21 21:28:51.005  INFO 11132 --- [main] co.udea.ingweb.api.App                   : The following profiles are active: heroku2
+2020-05-21 21:28:52.570  INFO 11132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-21 21:28:52.708  INFO 11132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 128ms. Found 7 repository interfaces.
+2020-05-21 21:28:53.129  INFO 11132 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ec742d6f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:28:53.160  INFO 11132 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$6bf47aa1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:28:53.557  INFO 11132 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-21 21:28:53.583  INFO 11132 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-21 21:28:53.583  INFO 11132 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-05-21 21:28:53.753  INFO 11132 --- [main] o.a.c.c.C.[.[localhost].[/ingweb-api]    : Initializing Spring embedded WebApplicationContext
+2020-05-21 21:28:53.754  INFO 11132 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2678 ms
+2020-05-21 21:28:54.056  INFO 11132 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-21 21:28:55.539  INFO 11132 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-21 21:28:55.629  INFO 11132 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-05-21 21:28:55.703  INFO 11132 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-05-21 21:28:55.704  INFO 11132 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-05-21 21:28:55.871  INFO 11132 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-05-21 21:28:56.041  INFO 11132 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-05-21 21:28:56.060  INFO 11132 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2020-05-21 21:28:56.070  INFO 11132 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@14dbfdb1
+2020-05-21 21:28:56.899  INFO 11132 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-21 21:29:05.079  WARN 11132 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-21 21:29:05.974  INFO 11132 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-21 21:29:06.336  INFO 11132 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-21 21:29:07.190  INFO 11132 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-05-21 21:29:07.271  INFO 11132 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-05-21 21:29:07.363  INFO 11132 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-05-21 21:29:08.031  INFO 11132 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/ingweb-api'
+2020-05-21 21:29:08.037  INFO 11132 --- [main] co.udea.ingweb.api.App                   : Started App in 17.783 seconds (JVM running for 19.459)
+2020-05-21 21:29:44.942  INFO 11132 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-21 21:29:44.948  INFO 11132 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-21 21:29:44.951  INFO 11132 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-05-21 21:29:44.963  INFO 11132 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-05-21 21:33:18.939  INFO 4276 --- [main] co.udea.ingweb.api.App                   : Starting App on DESKTOP-GD7UDV3 with PID 4276 (started by keshi in D:\Clases 2019-2\Ingeniería Web\Proyecto\IngWebApi)
+2020-05-21 21:33:18.943  INFO 4276 --- [main] co.udea.ingweb.api.App                   : The following profiles are active: heroku2
+2020-05-21 21:33:20.074  INFO 4276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-21 21:33:20.201  INFO 4276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 117ms. Found 7 repository interfaces.
+2020-05-21 21:33:20.601  INFO 4276 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ec1132dd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:33:20.628  INFO 4276 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$6b91800f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:33:21.019  INFO 4276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-21 21:33:21.044  INFO 4276 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-21 21:33:21.045  INFO 4276 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-05-21 21:33:21.225  INFO 4276 --- [main] o.a.c.c.C.[.[localhost].[/ingweb-api]    : Initializing Spring embedded WebApplicationContext
+2020-05-21 21:33:21.226  INFO 4276 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2233 ms
+2020-05-21 21:33:21.515  INFO 4276 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-21 21:33:22.958  INFO 4276 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-21 21:33:23.049  INFO 4276 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-05-21 21:33:23.120  INFO 4276 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-05-21 21:33:23.123  INFO 4276 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-05-21 21:33:23.300  INFO 4276 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-05-21 21:33:23.455  INFO 4276 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-05-21 21:33:23.475  INFO 4276 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2020-05-21 21:33:23.482  INFO 4276 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5611bba
+2020-05-21 21:33:24.244  INFO 4276 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-21 21:33:26.700  WARN 4276 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-21 21:33:27.430  INFO 4276 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-21 21:33:27.774  INFO 4276 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-21 21:33:28.545  INFO 4276 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-05-21 21:33:28.576  INFO 4276 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-05-21 21:33:28.655  INFO 4276 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-05-21 21:33:29.242  INFO 4276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/ingweb-api'
+2020-05-21 21:33:29.251  INFO 4276 --- [main] co.udea.ingweb.api.App                   : Started App in 10.988 seconds (JVM running for 12.143)
+2020-05-21 21:34:13.396  INFO 4276 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/ingweb-api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-21 21:34:13.397  INFO 4276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-21 21:34:13.432  INFO 4276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 35 ms
+2020-05-21 21:34:43.916  WARN 4276 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'datainicio' for method parameter of type Date]
+2020-05-21 21:35:13.327  WARN 4276 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'datainicio' for method parameter of type Date]
+2020-05-21 21:40:52.889  WARN 4276 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'datainicio' for method parameter of type Date]
+2020-05-21 21:42:28.242  WARN 4276 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'datainicio' for method parameter of type Date]
+2020-05-21 21:43:41.945  INFO 4276 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-21 21:43:41.950  INFO 4276 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-21 21:43:41.954  INFO 4276 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-05-21 21:43:41.966  INFO 4276 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-05-21 21:44:12.130  INFO 9500 --- [main] co.udea.ingweb.api.App                   : Starting App on DESKTOP-GD7UDV3 with PID 9500 (started by keshi in D:\Clases 2019-2\Ingeniería Web\Proyecto\IngWebApi)
+2020-05-21 21:44:12.135  INFO 9500 --- [main] co.udea.ingweb.api.App                   : The following profiles are active: heroku2
+2020-05-21 21:44:13.433  INFO 9500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-21 21:44:13.557  INFO 9500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 114ms. Found 7 repository interfaces.
+2020-05-21 21:44:13.970  INFO 9500 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5dc3a77d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:44:13.997  INFO 9500 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$dd43f4af] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:44:14.387  INFO 9500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-21 21:44:14.411  INFO 9500 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-21 21:44:14.412  INFO 9500 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-05-21 21:44:14.583  INFO 9500 --- [main] o.a.c.c.C.[.[localhost].[/ingweb-api]    : Initializing Spring embedded WebApplicationContext
+2020-05-21 21:44:14.584  INFO 9500 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2342 ms
+2020-05-21 21:44:14.870  INFO 9500 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-21 21:44:16.340  INFO 9500 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-21 21:44:16.436  INFO 9500 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-05-21 21:44:16.515  INFO 9500 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-05-21 21:44:16.517  INFO 9500 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-05-21 21:44:16.675  INFO 9500 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-05-21 21:44:16.842  INFO 9500 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-05-21 21:44:16.863  INFO 9500 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2020-05-21 21:44:16.871  INFO 9500 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@252c6cdb
+2020-05-21 21:44:17.645  INFO 9500 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-21 21:44:20.108  WARN 9500 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-21 21:44:20.924  INFO 9500 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-21 21:44:21.260  INFO 9500 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-21 21:44:22.125  INFO 9500 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-05-21 21:44:22.162  INFO 9500 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-05-21 21:44:22.242  INFO 9500 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-05-21 21:44:22.940  INFO 9500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/ingweb-api'
+2020-05-21 21:44:22.947  INFO 9500 --- [main] co.udea.ingweb.api.App                   : Started App in 11.472 seconds (JVM running for 12.507)
+2020-05-21 21:45:44.218  INFO 9500 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/ingweb-api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-21 21:45:44.218  INFO 9500 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-21 21:45:44.247  INFO 9500 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 29 ms
+2020-05-21 21:45:44.309  WARN 9500 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required Date parameter 'fechaInicial' is not present]
+2020-05-21 21:47:31.578  INFO 1420 --- [main] co.udea.ingweb.api.App                   : Starting App on DESKTOP-GD7UDV3 with PID 1420 (started by keshi in D:\Clases 2019-2\Ingeniería Web\Proyecto\IngWebApi)
+2020-05-21 21:47:31.582  INFO 1420 --- [main] co.udea.ingweb.api.App                   : The following profiles are active: heroku2
+2020-05-21 21:47:32.722  INFO 1420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-21 21:47:32.857  INFO 1420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 118ms. Found 7 repository interfaces.
+2020-05-21 21:47:33.264  INFO 1420 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9c602c90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:47:33.290  INFO 1420 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$1be079c2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:47:33.662  INFO 1420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-21 21:47:33.688  INFO 1420 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-21 21:47:33.689  INFO 1420 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-05-21 21:47:33.912  INFO 1420 --- [main] o.a.c.c.C.[.[localhost].[/ingweb-api]    : Initializing Spring embedded WebApplicationContext
+2020-05-21 21:47:33.913  INFO 1420 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2277 ms
+2020-05-21 21:47:34.210  INFO 1420 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-21 21:47:35.715  INFO 1420 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-21 21:47:35.805  INFO 1420 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-05-21 21:47:35.875  INFO 1420 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-05-21 21:47:35.876  INFO 1420 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-05-21 21:47:36.036  INFO 1420 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-05-21 21:47:36.198  INFO 1420 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-05-21 21:47:36.218  INFO 1420 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2020-05-21 21:47:36.225  INFO 1420 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@7d1cb59f
+2020-05-21 21:47:36.980  INFO 1420 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-21 21:47:39.427  WARN 1420 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-21 21:47:40.164  INFO 1420 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-21 21:47:40.491  INFO 1420 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-21 21:47:41.290  INFO 1420 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-05-21 21:47:41.320  INFO 1420 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-05-21 21:47:41.397  INFO 1420 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-05-21 21:47:42.086  INFO 1420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/ingweb-api'
+2020-05-21 21:47:42.092  INFO 1420 --- [main] co.udea.ingweb.api.App                   : Started App in 11.092 seconds (JVM running for 12.053)
+2020-05-21 21:47:45.894  INFO 1420 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/ingweb-api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-21 21:47:45.895  INFO 1420 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-21 21:47:45.923  INFO 1420 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 28 ms
+2020-05-21 21:47:47.871  INFO 1420 --- [http-nio-8080-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-05-21 21:47:47.940 ERROR 1420 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/ingweb-api] threw exception [Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: java/lang/CharacterData00] with root cause
+
+java.lang.NoClassDefFoundError: java/lang/CharacterData00
+	at java.lang.CharacterData.of(CharacterData.java:82) ~[na:1.8.0_212]
+	at java.lang.Character.toLowerCase(Character.java:6374) ~[na:1.8.0_212]
+	at java.lang.Character.toLowerCase(Character.java:6345) ~[na:1.8.0_212]
+	at antlr.CharScanner.toLower(CharScanner.java:369) ~[antlr-2.7.7.jar:na]
+	at antlr.CharScanner.LA(CharScanner.java:167) ~[antlr-2.7.7.jar:na]
+	at org.hibernate.hql.internal.antlr.HqlBaseLexer.nextToken(HqlBaseLexer.java:135) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at antlr.TokenBuffer.fill(TokenBuffer.java:69) ~[antlr-2.7.7.jar:na]
+	at antlr.TokenBuffer.LA(TokenBuffer.java:80) ~[antlr-2.7.7.jar:na]
+	at antlr.LLkParser.LA(LLkParser.java:52) ~[antlr-2.7.7.jar:na]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.atom(HqlBaseParser.java:3554) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.unaryExpression(HqlBaseParser.java:3401) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.multiplyExpression(HqlBaseParser.java:3273) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.additiveExpression(HqlBaseParser.java:2930) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.concatenation(HqlBaseParser.java:615) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.relationalExpression(HqlBaseParser.java:2697) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.equalityExpression(HqlBaseParser.java:2558) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.negatedExpression(HqlBaseParser.java:2522) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalAndExpression(HqlBaseParser.java:2448) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalOrExpression(HqlBaseParser.java:2403) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.expression(HqlBaseParser.java:2116) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalExpression(HqlBaseParser.java:1894) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.whereClause(HqlBaseParser.java:498) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:754) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:319) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:198) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:289) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:188) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:143) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:119) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:153) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:611) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:720) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:3407) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.query.criteria.internal.CriteriaQueryImpl$1.buildCompiledQuery(CriteriaQueryImpl.java:318) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.query.criteria.internal.compile.CriteriaCompiler.compile(CriteriaCompiler.java:149) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:3707) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:208) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_212]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_212]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_212]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_212]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:350) ~[spring-orm-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at com.sun.proxy.$Proxy99.createQuery(Unknown Source) ~[na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_212]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_212]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_212]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_212]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:308) ~[spring-orm-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at com.sun.proxy.$Proxy99.createQuery(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery$QueryPreparer.createQuery(PartTreeJpaQuery.java:217) ~[spring-data-jpa-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery$QueryPreparer.createQuery(PartTreeJpaQuery.java:173) ~[spring-data-jpa-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.doCreateQuery(PartTreeJpaQuery.java:94) ~[spring-data-jpa-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.createQuery(AbstractJpaQuery.java:210) ~[spring-data-jpa-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:129) ~[spring-data-jpa-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:91) ~[spring-data-jpa-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:136) ~[spring-data-jpa-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:125) ~[spring-data-jpa-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:605) ~[spring-data-commons-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$invoke$3(RepositoryFactorySupport.java:595) ~[spring-data-commons-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:595) ~[spring-data-commons-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59) ~[spring-data-commons-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:295) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:138) ~[spring-data-jpa-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61) ~[spring-data-commons-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at com.sun.proxy.$Proxy108.findAllByFechaAfterAndFechaBefore(Unknown Source) ~[na:na]
+	at co.udea.ingweb.api.service.ReporteService.getReporteVentaPorFechas(ReporteService.java:22) ~[classes/:na]
+	at co.udea.ingweb.api.controller.ReporteController.getReporteVentaPorFechas(ReporteController.java:25) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_212]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_212]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_212]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_212]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at co.udea.ingweb.api.config.CORSFilter.doFilter(CORSFilter.java:27) ~[classes/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_212]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_212]
+
+2020-05-21 21:48:41.993  INFO 8148 --- [main] co.udea.ingweb.api.App                   : Starting App on DESKTOP-GD7UDV3 with PID 8148 (started by keshi in D:\Clases 2019-2\Ingeniería Web\Proyecto\IngWebApi)
+2020-05-21 21:48:41.997  INFO 8148 --- [main] co.udea.ingweb.api.App                   : The following profiles are active: heroku2
+2020-05-21 21:48:43.174  INFO 8148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-21 21:48:43.296  INFO 8148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 113ms. Found 7 repository interfaces.
+2020-05-21 21:48:43.726  INFO 8148 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7c4db3d3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:48:43.759  INFO 8148 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$fbce0105] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:48:44.225  INFO 8148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-21 21:48:44.250  INFO 8148 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-21 21:48:44.251  INFO 8148 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-05-21 21:48:44.416  INFO 8148 --- [main] o.a.c.c.C.[.[localhost].[/ingweb-api]    : Initializing Spring embedded WebApplicationContext
+2020-05-21 21:48:44.416  INFO 8148 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2359 ms
+2020-05-21 21:48:44.712  INFO 8148 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-21 21:48:46.283  INFO 8148 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-21 21:48:46.398  INFO 8148 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-05-21 21:48:46.474  INFO 8148 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-05-21 21:48:46.480  INFO 8148 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-05-21 21:48:46.642  INFO 8148 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-05-21 21:48:46.815  INFO 8148 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-05-21 21:48:46.839  INFO 8148 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2020-05-21 21:48:46.846  INFO 8148 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5d37aa0f
+2020-05-21 21:48:47.577  INFO 8148 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-21 21:48:49.942  WARN 8148 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-21 21:48:50.666  INFO 8148 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-21 21:48:50.983  INFO 8148 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-21 21:48:51.731  INFO 8148 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-05-21 21:48:51.761  INFO 8148 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-05-21 21:48:51.842  INFO 8148 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-05-21 21:48:52.443  INFO 8148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/ingweb-api'
+2020-05-21 21:48:52.448  INFO 8148 --- [main] co.udea.ingweb.api.App                   : Started App in 11.124 seconds (JVM running for 12.133)
+2020-05-21 21:49:04.853  INFO 8148 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/ingweb-api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-21 21:49:04.854  INFO 8148 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-21 21:49:04.886  INFO 8148 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 32 ms
+2020-05-21 21:49:56.277  INFO 11544 --- [main] co.udea.ingweb.api.App                   : Starting App on DESKTOP-GD7UDV3 with PID 11544 (started by keshi in D:\Clases 2019-2\Ingeniería Web\Proyecto\IngWebApi)
+2020-05-21 21:49:56.280  INFO 11544 --- [main] co.udea.ingweb.api.App                   : The following profiles are active: heroku2
+2020-05-21 21:49:57.491  INFO 11544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-21 21:49:57.604  INFO 11544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 104ms. Found 7 repository interfaces.
+2020-05-21 21:49:58.018  INFO 11544 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5c81e77e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:49:58.046  INFO 11544 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$dc0234b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:49:58.421  INFO 11544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-21 21:49:58.446  INFO 11544 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-21 21:49:58.446  INFO 11544 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-05-21 21:49:58.604  INFO 11544 --- [main] o.a.c.c.C.[.[localhost].[/ingweb-api]    : Initializing Spring embedded WebApplicationContext
+2020-05-21 21:49:58.604  INFO 11544 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2268 ms
+2020-05-21 21:49:58.892  INFO 11544 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-21 21:50:00.357  INFO 11544 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-21 21:50:00.451  INFO 11544 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-05-21 21:50:00.531  INFO 11544 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-05-21 21:50:00.533  INFO 11544 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-05-21 21:50:00.684  INFO 11544 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-05-21 21:50:00.836  INFO 11544 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-05-21 21:50:00.855  INFO 11544 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2020-05-21 21:50:00.861  INFO 11544 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@7d626f2
+2020-05-21 21:50:01.579  INFO 11544 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-21 21:50:03.879  WARN 11544 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-21 21:50:04.738  INFO 11544 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-21 21:50:05.084  INFO 11544 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-21 21:50:05.827  INFO 11544 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-05-21 21:50:05.858  INFO 11544 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-05-21 21:50:05.933  INFO 11544 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-05-21 21:50:06.511  INFO 11544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/ingweb-api'
+2020-05-21 21:50:06.517  INFO 11544 --- [main] co.udea.ingweb.api.App                   : Started App in 10.903 seconds (JVM running for 11.883)
+2020-05-21 21:52:05.168  INFO 11544 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/ingweb-api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-21 21:52:05.169  INFO 11544 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-21 21:52:05.197  INFO 11544 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 28 ms
+2020-05-21 21:52:16.045  INFO 10788 --- [main] co.udea.ingweb.api.App                   : Starting App on DESKTOP-GD7UDV3 with PID 10788 (started by keshi in D:\Clases 2019-2\Ingeniería Web\Proyecto\IngWebApi)
+2020-05-21 21:52:16.049  INFO 10788 --- [main] co.udea.ingweb.api.App                   : The following profiles are active: heroku2
+2020-05-21 21:52:17.251  INFO 10788 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-21 21:52:17.366  INFO 10788 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106ms. Found 7 repository interfaces.
+2020-05-21 21:52:17.779  INFO 10788 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5e72fe86] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:52:17.806  INFO 10788 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$ddf34bb8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 21:52:18.192  INFO 10788 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-21 21:52:18.217  INFO 10788 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-21 21:52:18.217  INFO 10788 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-05-21 21:52:18.378  INFO 10788 --- [main] o.a.c.c.C.[.[localhost].[/ingweb-api]    : Initializing Spring embedded WebApplicationContext
+2020-05-21 21:52:18.378  INFO 10788 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2273 ms
+2020-05-21 21:52:18.687  INFO 10788 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-21 21:52:20.026  INFO 10788 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-21 21:52:20.114  INFO 10788 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-05-21 21:52:20.191  INFO 10788 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-05-21 21:52:20.194  INFO 10788 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-05-21 21:52:20.355  INFO 10788 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-05-21 21:52:20.535  INFO 10788 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-05-21 21:52:20.565  INFO 10788 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2020-05-21 21:52:20.575  INFO 10788 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@621dc63d
+2020-05-21 21:52:21.334  INFO 10788 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-21 21:52:23.881  WARN 10788 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-21 21:52:24.690  INFO 10788 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-21 21:52:25.037  INFO 10788 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-21 21:52:25.876  INFO 10788 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-05-21 21:52:25.906  INFO 10788 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-05-21 21:52:25.983  INFO 10788 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-05-21 21:52:26.630  INFO 10788 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/ingweb-api'
+2020-05-21 21:52:26.638  INFO 10788 --- [main] co.udea.ingweb.api.App                   : Started App in 11.191 seconds (JVM running for 12.134)
+2020-05-21 21:52:26.860  INFO 10788 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/ingweb-api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-21 21:52:26.860  INFO 10788 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-21 21:52:26.888  INFO 10788 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 27 ms
+2020-05-21 22:19:02.515  INFO 2052 --- [main] co.udea.ingweb.api.App                   : Starting App on DESKTOP-GD7UDV3 with PID 2052 (started by keshi in D:\Clases 2019-2\Ingeniería Web\Proyecto\IngWebApi)
+2020-05-21 22:19:02.584  INFO 2052 --- [main] co.udea.ingweb.api.App                   : The following profiles are active: heroku2
+2020-05-21 22:19:04.246  INFO 2052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-21 22:19:04.379  INFO 2052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121ms. Found 7 repository interfaces.
+2020-05-21 22:19:04.791  INFO 2052 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5b20d01c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 22:19:04.815  INFO 2052 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$daa11d4e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 22:19:05.188  INFO 2052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-21 22:19:05.231  INFO 2052 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-21 22:19:05.232  INFO 2052 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-05-21 22:19:05.389  INFO 2052 --- [main] o.a.c.c.C.[.[localhost].[/ingweb-api]    : Initializing Spring embedded WebApplicationContext
+2020-05-21 22:19:05.389  INFO 2052 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2724 ms
+2020-05-21 22:19:05.687  INFO 2052 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-21 22:19:07.689  INFO 2052 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-21 22:19:07.797  INFO 2052 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-05-21 22:19:07.884  INFO 2052 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-05-21 22:19:07.885  INFO 2052 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-05-21 22:19:08.088  INFO 2052 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-05-21 22:19:08.267  INFO 2052 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-05-21 22:19:08.288  INFO 2052 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2020-05-21 22:19:08.295  INFO 2052 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5df7e31b
+2020-05-21 22:19:09.038  INFO 2052 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-21 22:19:10.025  WARN 2052 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-21 22:19:10.531  INFO 2052 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-21 22:19:10.720  INFO 2052 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-21 22:19:11.221  INFO 2052 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-05-21 22:19:11.240  INFO 2052 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-05-21 22:19:11.290  INFO 2052 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-05-21 22:19:11.543  INFO 2052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/ingweb-api'
+2020-05-21 22:19:11.547  INFO 2052 --- [main] co.udea.ingweb.api.App                   : Started App in 9.804 seconds (JVM running for 11.313)
+2020-05-21 22:19:54.998  INFO 2052 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/ingweb-api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-21 22:19:54.999  INFO 2052 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-21 22:19:55.019  INFO 2052 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
+2020-05-21 22:19:55.271  INFO 2052 --- [http-nio-8080-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-05-21 22:26:20.813  INFO 7188 --- [main] co.udea.ingweb.api.App                   : Starting App on DESKTOP-GD7UDV3 with PID 7188 (started by keshi in D:\Clases 2019-2\Ingeniería Web\Proyecto\IngWebApi)
+2020-05-21 22:26:20.816  INFO 7188 --- [main] co.udea.ingweb.api.App                   : The following profiles are active: heroku2
+2020-05-21 22:26:21.870  INFO 7188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-21 22:26:21.975  INFO 7188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97ms. Found 7 repository interfaces.
+2020-05-21 22:26:22.386  INFO 7188 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$deb0ec0f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 22:26:22.412  INFO 7188 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$5e313941] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 22:26:22.796  INFO 7188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-21 22:26:22.821  INFO 7188 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-21 22:26:22.821  INFO 7188 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-05-21 22:26:22.975  INFO 7188 --- [main] o.a.c.c.C.[.[localhost].[/ingweb-api]    : Initializing Spring embedded WebApplicationContext
+2020-05-21 22:26:22.975  INFO 7188 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2113 ms
+2020-05-21 22:26:23.247  INFO 7188 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-21 22:26:24.672  INFO 7188 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-21 22:26:24.767  INFO 7188 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-05-21 22:26:24.833  INFO 7188 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-05-21 22:26:24.835  INFO 7188 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-05-21 22:26:24.983  INFO 7188 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-05-21 22:26:25.136  INFO 7188 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-05-21 22:26:25.162  INFO 7188 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2020-05-21 22:26:25.169  INFO 7188 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@702f4124
+2020-05-21 22:26:25.891  INFO 7188 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-21 22:26:28.395  WARN 7188 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-21 22:26:29.138  INFO 7188 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-21 22:26:29.455  INFO 7188 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-21 22:26:30.234  INFO 7188 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-05-21 22:26:30.265  INFO 7188 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-05-21 22:26:30.341  INFO 7188 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-05-21 22:26:30.969  INFO 7188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/ingweb-api'
+2020-05-21 22:26:30.974  INFO 7188 --- [main] co.udea.ingweb.api.App                   : Started App in 10.644 seconds (JVM running for 12.054)
+2020-05-21 22:30:02.514  INFO 7188 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/ingweb-api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-21 22:30:02.514  INFO 7188 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-21 22:30:02.545  INFO 7188 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 30 ms
+2020-05-21 22:30:02.614  WARN 7188 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required Date parameter 'fechaInicial' is not present]
+2020-05-21 22:31:52.668  WARN 7188 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required Date parameter 'fechaInicial' is not present]
+2020-05-21 22:32:28.723  INFO 7188 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-21 22:32:28.727  INFO 7188 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-21 22:32:28.730  INFO 7188 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-05-21 22:32:28.741  INFO 7188 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-05-21 22:32:37.289  INFO 10960 --- [main] co.udea.ingweb.api.App                   : Starting App on DESKTOP-GD7UDV3 with PID 10960 (started by keshi in D:\Clases 2019-2\Ingeniería Web\Proyecto\IngWebApi)
+2020-05-21 22:32:37.292  INFO 10960 --- [main] co.udea.ingweb.api.App                   : The following profiles are active: heroku2
+2020-05-21 22:32:38.475  INFO 10960 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-21 22:32:38.577  INFO 10960 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92ms. Found 7 repository interfaces.
+2020-05-21 22:32:39.017  INFO 10960 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bfbd860d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 22:32:39.046  INFO 10960 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$3f3dd33f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 22:32:39.435  INFO 10960 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-21 22:32:39.466  INFO 10960 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-21 22:32:39.467  INFO 10960 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-05-21 22:32:39.630  INFO 10960 --- [main] o.a.c.c.C.[.[localhost].[/ingweb-api]    : Initializing Spring embedded WebApplicationContext
+2020-05-21 22:32:39.631  INFO 10960 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2291 ms
+2020-05-21 22:32:39.930  INFO 10960 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-21 22:32:41.445  INFO 10960 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-21 22:32:41.529  INFO 10960 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-05-21 22:32:41.602  INFO 10960 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-05-21 22:32:41.604  INFO 10960 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-05-21 22:32:41.769  INFO 10960 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-05-21 22:32:41.918  INFO 10960 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-05-21 22:32:41.938  INFO 10960 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2020-05-21 22:32:41.944  INFO 10960 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@e49437
+2020-05-21 22:32:42.648  INFO 10960 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-21 22:32:45.079  WARN 10960 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-21 22:32:45.797  INFO 10960 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-21 22:32:46.151  INFO 10960 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-21 22:32:46.895  INFO 10960 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-05-21 22:32:46.929  INFO 10960 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-05-21 22:32:47.009  INFO 10960 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-05-21 22:32:47.632  INFO 10960 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/ingweb-api'
+2020-05-21 22:32:47.637  INFO 10960 --- [main] co.udea.ingweb.api.App                   : Started App in 10.916 seconds (JVM running for 12.048)
+2020-05-21 22:32:49.399  INFO 10960 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/ingweb-api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-21 22:32:49.400  INFO 10960 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-21 22:32:49.426  INFO 10960 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 26 ms
+2020-05-21 22:32:49.500  WARN 10960 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required Date parameter 'fechaInicial' is not present]
+2020-05-21 22:34:54.790  WARN 10960 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.util.Date'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [@org.springframework.web.bind.annotation.RequestParam @org.springframework.format.annotation.DateTimeFormat java.util.Date] for value 'undefined'; nested exception is java.lang.IllegalArgumentException: Parse attempt failed for value [undefined]]
+2020-05-21 22:35:15.999  INFO 10960 --- [http-nio-8080-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-05-21 22:37:06.146  WARN 10960 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s593ms876µs200ns).
+2020-05-21 22:42:55.893  WARN 10960 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s734ms23µs400ns).
+2020-05-21 22:54:40.526  WARN 10960 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m10s636ms235µs300ns).
+2020-05-21 23:04:19.756  WARN 10960 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55s917ms809µs500ns).
+2020-05-21 23:07:05.406  INFO 10960 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-21 23:07:05.411  INFO 10960 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-21 23:07:05.413  INFO 10960 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-05-21 23:07:05.743  INFO 10960 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-05-21 23:07:11.265  INFO 11324 --- [main] co.udea.ingweb.api.App                   : Starting App on DESKTOP-GD7UDV3 with PID 11324 (started by keshi in D:\Clases 2019-2\Ingeniería Web\Proyecto\IngWebApi)
+2020-05-21 23:07:11.269  INFO 11324 --- [main] co.udea.ingweb.api.App                   : The following profiles are active: heroku2
+2020-05-21 23:07:12.336  INFO 11324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-21 23:07:12.434  INFO 11324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89ms. Found 7 repository interfaces.
+2020-05-21 23:07:12.838  INFO 11324 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a809cb32] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 23:07:12.864  INFO 11324 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$278a1864] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-21 23:07:13.235  INFO 11324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-21 23:07:13.261  INFO 11324 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-21 23:07:13.261  INFO 11324 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-05-21 23:07:13.419  INFO 11324 --- [main] o.a.c.c.C.[.[localhost].[/ingweb-api]    : Initializing Spring embedded WebApplicationContext
+2020-05-21 23:07:13.419  INFO 11324 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2097 ms
+2020-05-21 23:07:13.694  INFO 11324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-21 23:07:15.105  INFO 11324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-21 23:07:15.199  INFO 11324 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-05-21 23:07:15.265  INFO 11324 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-05-21 23:07:15.267  INFO 11324 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-05-21 23:07:15.413  INFO 11324 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-05-21 23:07:15.559  INFO 11324 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-05-21 23:07:15.579  INFO 11324 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2020-05-21 23:07:15.585  INFO 11324 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@15cee630
+2020-05-21 23:07:16.336  INFO 11324 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-21 23:07:18.669  WARN 11324 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-21 23:07:19.402  INFO 11324 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-21 23:07:19.750  INFO 11324 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-21 23:07:20.490  INFO 11324 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-05-21 23:07:20.522  INFO 11324 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-05-21 23:07:20.600  INFO 11324 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-05-21 23:07:21.260  INFO 11324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/ingweb-api'
+2020-05-21 23:07:21.266  INFO 11324 --- [main] co.udea.ingweb.api.App                   : Started App in 10.539 seconds (JVM running for 11.436)
+2020-05-21 23:07:23.593  INFO 11324 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/ingweb-api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-21 23:07:23.593  INFO 11324 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-21 23:07:23.619  INFO 11324 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 26 ms
+2020-05-21 23:07:25.232  INFO 11324 --- [http-nio-8080-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-05-21 23:10:13.252  WARN 11324 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s41ms728µs100ns).
+2020-05-21 23:11:38.543  WARN 11324 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55s290ms746µs900ns).
+2020-05-21 23:25:39.423  INFO 11324 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-21 23:25:39.427  INFO 11324 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-21 23:25:39.430  INFO 11324 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-05-21 23:25:39.442  INFO 11324 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
