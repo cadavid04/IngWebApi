@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/detalleVentas")
+    @RequestMapping("/detalleVentas")
 
 public class VentaDetalleController {
 
@@ -21,6 +21,11 @@ public class VentaDetalleController {
     @PostMapping()
     public ResponseEntity<List<VentaDetalleDTO>>consultarDetalles(@RequestBody VentaDetalleDTO ventaDetalleDTO){
         return ResponseEntity.ok(ventaDetalleService.guardarDetallesPorVenta(ventaDetalleDTO));
+    }
+
+    @GetMapping("/{idVenta}")
+    public double sumarTotalVenta(@PathVariable("idVenta") int idVenta){
+        return ventaDetalleService.sumarTotalVenta(idVenta);
     }
 
 }

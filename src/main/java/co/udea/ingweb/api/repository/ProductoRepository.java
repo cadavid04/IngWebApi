@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface ProductoRepository extends JpaRepository<Producto, String>{
 
-    public Producto findByNombreEquals(String nombre);
+    Producto findByNombreEquals(String nombre);
 
 }
 

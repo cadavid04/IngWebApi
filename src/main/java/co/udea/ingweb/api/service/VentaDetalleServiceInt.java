@@ -10,5 +10,5 @@ public interface VentaDetalleServiceInt {
     List<VentaDetalleDTO> guardarDetallesPorVenta(VentaDetalleDTO detalleDTO);
 
 
-
+    double sumarTotalVenta(int idVenta);
 }
